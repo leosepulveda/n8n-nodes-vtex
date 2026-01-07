@@ -1,0 +1,11 @@
+node_modules/
+package-lock.json
+dist/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+*.log
+test-vtex.js
+.env
+.n8n/

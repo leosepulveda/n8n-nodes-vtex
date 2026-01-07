@@ -1,0 +1,52 @@
+# Development files
+src/
+*.ts
+!*.d.ts
+tsconfig.json
+.eslintrc.js
+.prettierrc
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+tmp/
+temp/
+
+# Build artifacts
+node_modules/
+coverage/
+
+# QA and audit reports
+QA_REPORT.md
+AUDIT_REPORT_OFFICIAL_DOCS.md
+PUBLISH_CHECKLIST.md
+
+# Test scripts
+test-vtex.js
